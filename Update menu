@@ -7,7 +7,7 @@
 <style>
   body { margin:0; font-family:Tahoma,sans-serif; background:#f5f0e1; color:#3b2a14; }
   header { text-align:center; padding:25px 15px; font-size:2em; color:#fff; background:#6b4f2d; text-shadow:1px 1px 2px #000; }
-  .menu { max-width:500px; margin:20px auto; background:rgba(255,250,230,0.95); border-radius:12px; padding:15px; box-shadow:0 0 10px rgba(0,0,0,0.2); }
+  .menu { max-width:550px; margin:20px auto; background:rgba(255,250,230,0.95); border-radius:12px; padding:15px; box-shadow:0 0 10px rgba(0,0,0,0.2); }
   h2 { text-align:center; border-bottom:2px solid #c9a34e; padding-bottom:5px; color:#4a2c18; margin-top:20px; }
   .item { display:flex; justify-content:space-between; padding:5px 0; border-bottom:1px dotted #bba97a; }
   .item:last-child { border-bottom:none; }
@@ -35,9 +35,6 @@
 <div class="item"><span>آیس نسکافه</span><span>۱۰۰ تومان</span></div>
 <div class="item"><span>آیس آناناس</span><span>۱۰۰ تومان</span></div>
 <div class="item"><span>آفوگاتو با بستنی</span><span>۸۵ تومان</span></div>
-<div class="item"><span>کیک شکلاتی</span><span>۷۰ تومان</span></div>
-<div class="item"><span>کیک مافین</span><span>۴۰ تومان</span></div>
-<div class="item"><span>رولت</span><span>۴۰ تومان</span></div>
 
 <h2>☕ نوشیدنی گرم</h2>
 <div class="item"><span>قهوه ترک</span><span>۵۰ تومان</span></div>
@@ -79,11 +76,15 @@
 <div class="item"><span>سرویس چای هفت نفره</span><span>۳۵۰ تومان</span></div>
 <div class="item"><span>چای ماسالا</span><span>۸۰ تومان</span></div>
 
+<h2>🍰 دسرها</h2>
+<div class="item"><span>کیک شکلاتی</span><span>۷۰ تومان</span></div>
+<div class="item"><span>کیک مافین</span><span>۴۰ تومان</span></div>
+<div class="item"><span>رولت</span><span>۴۰ تومان</span></div>
+
 <footer>
 «هر فنجان، سکوتی گرم…» ☕<br>
 «میان بوی قهوه و آرامش دل‌ها…»<br>
 «یک لحظه شیرین در قصر کافه.» ✨
 </footer>
-</div>
 </body>
 </html>
