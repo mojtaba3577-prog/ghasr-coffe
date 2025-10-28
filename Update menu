@@ -1,3 +1,96 @@
+# ساخت نسخه سبک‌شده و کامل HTML آماده برای GitHub Pages
+light_index_html = """
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>کافه سنتی قصر</title>
+<style>
+  body {
+    margin: 0;
+    font-family: Tahoma, sans-serif;
+    background: #f5f0e1 url('https://i.imgur.com/5q9j9pC.png') repeat;
+    color: #3b2a14;
+  }
+  header {
+    text-align: center;
+    padding: 30px 20px;
+    font-size: 2em;
+    color: #fff;
+    background: #6b4f2d;
+    text-shadow: 1px 1px 2px #000;
+  }
+  .menu {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: rgba(255, 250, 230, 0.95);
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  }
+  h2 {
+    text-align: center;
+    border-bottom: 2px solid #c9a34e;
+    padding-bottom: 5px;
+    color: #4a2c18;
+    margin-top: 25px;
+  }
+  .item {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    border-bottom: 1px dotted #bba97a;
+  }
+  .item:last-child { border-bottom: none; }
+  footer {
+    text-align: center;
+    color: #3b2a14;
+    font-style: italic;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    font-size: 1em;
+  }
+</style>
+</head>
+<body>
+<header>☕ به کافه سنتی قصر خوش آمدید! 🍮</header>
+<div class="menu">
+
+<h2>🍨 بستنی و آیس پک</h2>
+<div class="item"><span>معجون</span><span>۲۰۰ تومان</span></div>
+<div class="item"><span>بستنی معجون</span><span>۱۴۰ تومان</span></div>
+<div class="item"><span>بستنی سنتی</span><span>۹۵ تومان</span></div>
+<div class="item"><span>بستنی میوه ای</span><span>۹۵ تومان</span></div>
+<div class="item"><span>فالوده خالی</span><span>۶۵ تومان</span></div>
+<div class="item"><span>فالوده بستنی</span><span>۹۵ تومان</span></div>
+
+<h2>☕ نوشیدنی گرم</h2>
+<div class="item"><span>قهوه ترک</span><span>۵۰ تومان</span></div>
+<div class="item"><span>قهوه اسپرسو تک</span><span>۴۵ تومان</span></div>
+<div class="item"><span>لاته کاراملی</span><span>۹۰ تومان</span></div>
+
+<h2>🍹 نوشیدنی خنک</h2>
+<div class="item"><span>شربت پرتقال</span><span>۵۰ تومان</span></div>
+<div class="item"><span>شیر موز معجون</span><span>۱۰۰ تومان</span></div>
+
+<h2>🍵 سرویس چای</h2>
+<div class="item"><span>سرویس چای سه نفره</span><span>۱۵۰ تومان</span></div>
+
+</div>
+<footer>
+«هر فنجان، سکوتی گرم…» ☕<br>
+«جایی میان بوی قهوه و صدای آرام دل‌ها…»<br>
+«در قصر، زمان برای یک لبخند متوقف می‌شود.» ✨
+</footer>
+</body>
+</html>
+"""
+
+with open("/mnt/data/index.html", "w", encoding="utf-8") as f:
+    f.write(light_index_html)
+
+"/mnt/data/index.html"
 html_content = """
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
