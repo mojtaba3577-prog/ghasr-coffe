@@ -1,19 +1,61 @@
 <!DOCTYPE html>
-<html lang="fa">
+<html lang="fa" dir="rtl">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>سرای سنتی قصر</title>
 <style>
-body{direction:rtl;font-family:Tahoma;background:#f3eee7;margin:0}
-.menu{width:420px;margin:20px auto;background:#fff;padding:16px;border-radius:8px}
-h1{text-align:center;font-size:18px;margin:10px 0}
-h2{font-size:14px;margin-top:14px;border-bottom:1px solid #ccc;padding-bottom:3px}
+body{
+    margin:0;
+    background:#efe6d8;
+    font-family:Tahoma, sans-serif;
+}
+.menu{
+    max-width:430px;
+    margin:20px auto;
+    background:#fffaf2;
+    padding:18px;
+    border-radius:14px;
+    box-shadow:0 6px 20px rgba(0,0,0,.18);
+}
+.logo{
+    text-align:center;
+    margin-bottom:10px;
+}
+.logo img{
+    max-width:180px;
+}
+h1{
+    text-align:center;
+    font-size:18px;
+    margin:6px 0 14px;
+    color:#5a3b1e;
+}
+h2{
+    font-size:14px;
+    margin:18px 0 6px;
+    padding-bottom:4px;
+    border-bottom:1px dashed #c9a66b;
+    color:#7a4e2d;
+}
 ul{list-style:none;padding:0;margin:0}
-li{display:flex;justify-content:space-between;font-size:13px;padding:3px 0}
+li{
+    display:flex;
+    justify-content:space-between;
+    padding:4px 0;
+    font-size:13px;
+    color:#333;
+}
+li span:last-child{color:#5a3b1e}
 </style>
 </head>
+
 <body>
 <div class="menu">
+
+<div class="logo">
+    <img src="logo.png" alt="سرای سنتی قصر">
+</div>
 
 <h1>سرای سنتی قصر</h1>
 
@@ -40,85 +82,6 @@ li{display:flex;justify-content:space-between;font-size:13px;padding:3px 0}
 <li><span>رولت</span><span>۵۰</span></li>
 </ul>
 
-<h2>نوشیدنی گرم</h2>
-<ul>
-<li><span>قهوه ترک</span><span>۵۰</span></li>
-<li><span>قهوه اسپرسو تک</span><span>۴۵</span></li>
-<li><span>قهوه اسپرسو دبل</span><span>۶۰</span></li>
-<li><span>قهوه ماکیاتو</span><span>۷۰</span></li>
-<li><span>قهوه یونانی</span><span>۷۰</span></li>
-<li><span>قهوه آمریکانو</span><span>۷۵</span></li>
-<li><span>لاته</span><span>۱۰۰</span></li>
-<li><span>لاته کاراملی</span><span>۹۰</span></li>
-<li><span>کافه میکس با کارامل</span><span>۹۰</span></li>
-<li><span>قهوه موکا</span><span>۷۰</span></li>
-<li><span>شیر قهوه</span><span>۹۰</span></li>
-<li><span>نسکافه</span><span>۸۰</span></li>
-<li><span>هات چاکلت</span><span>۸۰</span></li>
-<li><span>شیر نسکافه</span><span>۹۰</span></li>
-<li><span>کاپوچینو</span><span>۹۰</span></li>
-<li><span>شیر کاکائو</span><span>۵۰</span></li>
-</ul>
-
-<h2>دمنوش</h2>
-<ul>
-<li><span>دمنوش لیمو و چای سبز</span><span>۹۰</span></li>
-<li><span>دمنوش گل گاو زبان</span><span>۱۰۰</span></li>
-<li><span>دمنوش بهار نارنج و گل محمدی</span><span>۱۰۰</span></li>
-<li><span>دمنوش سیب و دارچین</span><span>۱۰۰</span></li>
-<li><span>دمنوش آویشن</span><span>۱۰۰</span></li>
-<li><span>دمنوش عناب</span><span>۹۰</span></li>
-<li><span>دمنوش گل بنفش</span><span>۹۰</span></li>
-<li><span>دمنوش چای ترش</span><span>۱۰۰</span></li>
-<li><span>دمنوش زنجبیل و دارچین</span><span>۱۲۰</span></li>
-<li><span>بابونه اسطوخودوس</span><span>۱۰۰</span></li>
-</ul>
-
-<h2>نوشیدنی خنک</h2>
-<ul>
-<li><span>شربت پرتقال</span><span>۵۰</span></li>
-<li><span>شربت آناناس</span><span>۶۰</span></li>
-<li><span>شربت آلبالو</span><span>۶۰</span></li>
-<li><span>شربت موهیتو</span><span>۸۰</span></li>
-<li><span>شربت خاکشیر</span><span>۶۰</span></li>
-<li><span>شربت تخم شربتی و زعفران</span><span>۷۰</span></li>
-</ul>
-
-<h2>آبمیوه و معجون</h2>
-<ul>
-<li><span>شیر موز معجون</span><span>۱۰۰</span></li>
-<li><span>شیر پسته با بستنی</span><span>۱۱۰</span></li>
-<li><span>شیر موز</span><span>۶۵</span></li>
-<li><span>شیر موز بستنی</span><span>۹۰</span></li>
-<li><span>شیر موز قهوه</span><span>۹۰</span></li>
-<li><span>آب هویج</span><span>۵۰</span></li>
-<li><span>آب هویج بستنی</span><span>۸۰</span></li>
-<li><span>آب طالبی</span><span>۷۰</span></li>
-<li><span>آب طالبی بستنی</span><span>۹۰</span></li>
-<li><span>آب انبه</span><span>۹۰</span></li>
-<li><span>آب انبه بستنی</span><span>۱۱۰</span></li>
-</ul>
-
-<h2>سرویس چای</h2>
-<ul>
-<li><span>سرویس چای دو نفره</span><span>۱۲۰</span></li>
-<li><span>سرویس چای سه نفره</span><span>۱۸۰</span></li>
-<li><span>سرویس چای پنج نفره</span><span>۳۰۰</span></li>
-<li><span>سرویس چای هفت نفره</span><span>۴۲۰</span></li>
-<li><span>چای ماسالا</span><span>۸۰</span></li>
-</ul>
-
-<h2>غذا ها</h2>
-<ul>
-<li><span>دیزی</span><span>۳۲۰</span></li>
-<li><span>حلیم</span><span>۱۳۰</span></li>
-<li><span>آش رشته</span><span>۱۳۰</span></li>
-<li><span>آش دوغ</span><span>۱۲۰</span></li>
-<li><span>بلال</span><span>۹۰</span></li>
-<li><span>ذرت مکزیکی</span><span>۹۰</span></li>
-</ul>
-
 </div>
 </body>
 </html>
-
