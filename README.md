@@ -9,7 +9,7 @@
 body{
     margin:0;
     font-family:Tahoma, sans-serif;
-    background:linear-gradient(135deg,#f6efe4,#e8dcc8);
+    background:linear-gradient(135deg,#f6efe4,#e7d8c3);
     color:#3b2a1a;
 }
 
@@ -20,10 +20,9 @@ body{
     font-size:20px;
     font-weight:bold;
     color:#7a4e2d;
-    letter-spacing:1px;
 }
 
-/* کارت‌های صفحه اصلی */
+/* کارت‌های دسته‌بندی */
 .categories{
     display:grid;
     grid-template-columns:repeat(2,1fr);
@@ -31,9 +30,9 @@ body{
     padding:16px;
 }
 .card{
-    background:linear-gradient(145deg,#fff7ec,#e7d3a3);
+    background:linear-gradient(145deg,#fff6e8,#e3cfa1);
     border-radius:16px;
-    padding:26px 10px;
+    padding:28px 10px;
     text-align:center;
     font-size:14px;
     box-shadow:0 6px 16px rgba(90,60,30,.25);
@@ -41,11 +40,11 @@ body{
     transition:.25s;
 }
 .card:hover{
-    transform:scale(1.03);
-    background:linear-gradient(145deg,#f5e6c8,#d9b873);
+    transform:scale(1.04);
+    background:linear-gradient(145deg,#f3e0b8,#d2ad68);
 }
 
-/* صفحه منو */
+/* صفحات منو */
 .menu{
     display:none;
     padding:18px;
@@ -80,9 +79,9 @@ li:last-child{border:none}
 .back{
     display:inline-block;
     margin-bottom:14px;
-    background:linear-gradient(145deg,#c8a45c,#8b5e2f);
+    background:linear-gradient(145deg,#c6a15a,#8a5c2c);
     color:#fff;
-    padding:7px 14px;
+    padding:7px 16px;
     border-radius:20px;
     font-size:12px;
     cursor:pointer;
@@ -105,7 +104,7 @@ li:last-child{border:none}
     <div class="card" onclick="openMenu('food')">🍲 غذاها</div>
 </div>
 
-<!-- منوها (همون قبلی، بدون تغییر محتوا) -->
+<!-- بستنی -->
 <div class="menu" id="ice">
 <span class="back" onclick="goBack()">بازگشت</span>
 <h2>بستنی و آیس پک</h2>
@@ -126,6 +125,111 @@ li:last-child{border:none}
 <li><span>آیس نسکافه</span><span>۱۰۰</span></li>
 <li><span>آیس آناناس</span><span>۱۰۰</span></li>
 <li><span>آفوگاتو با بستنی</span><span>۸۵</span></li>
+</ul>
+</div>
+
+<!-- کیک -->
+<div class="menu" id="cake">
+<span class="back" onclick="goBack()">بازگشت</span>
+<h2>کیک‌ها</h2>
+<ul>
+<li><span>کیک شکلاتی</span><span>۸۰</span></li>
+<li><span>کاپ کیک</span><span>۴۵</span></li>
+<li><span>رولت</span><span>۵۰</span></li>
+</ul>
+</div>
+
+<!-- نوشیدنی گرم -->
+<div class="menu" id="hot">
+<span class="back" onclick="goBack()">بازگشت</span>
+<h2>نوشیدنی گرم</h2>
+<ul>
+<li><span>قهوه ترک</span><span>۵۰</span></li>
+<li><span>اسپرسو تک</span><span>۴۵</span></li>
+<li><span>اسپرسو دبل</span><span>۶۰</span></li>
+<li><span>ماکیاتو</span><span>۷۰</span></li>
+<li><span>قهوه یونانی</span><span>۷۰</span></li>
+<li><span>آمریکانو</span><span>۷۵</span></li>
+<li><span>لاته</span><span>۱۰۰</span></li>
+<li><span>لاته کاراملی</span><span>۹۰</span></li>
+<li><span>کافه میکس با کارامل</span><span>۹۰</span></li>
+<li><span>موکا</span><span>۷۰</span></li>
+<li><span>شیر قهوه</span><span>۹۰</span></li>
+<li><span>نسکافه</span><span>۸۰</span></li>
+<li><span>هات چاکلت</span><span>۸۰</span></li>
+<li><span>شیر نسکافه</span><span>۹۰</span></li>
+<li><span>کاپوچینو</span><span>۹۰</span></li>
+<li><span>شیر کاکائو</span><span>۵۰</span></li>
+</ul>
+</div>
+
+<!-- دمنوش -->
+<div class="menu" id="herbal">
+<span class="back" onclick="goBack()">بازگشت</span>
+<h2>سرویس دمنوش</h2>
+<ul>
+<li><span>لیمو و چای سبز</span><span>۹۰</span></li>
+<li><span>گل گاو زبان</span><span>۱۰۰</span></li>
+<li><span>بهار نارنج و گل محمدی</span><span>۱۰۰</span></li>
+<li><span>سیب و دارچین</span><span>۱۰۰</span></li>
+<li><span>آویشن</span><span>۱۰۰</span></li>
+<li><span>عناب</span><span>۹۰</span></li>
+<li><span>گل بنفش</span><span>۹۰</span></li>
+<li><span>چای ترش</span><span>۱۰۰</span></li>
+<li><span>زنجبیل و دارچین</span><span>۱۲۰</span></li>
+<li><span>بابونه اسطوخدوس</span><span>۱۰۰</span></li>
+</ul>
+</div>
+
+<!-- نوشیدنی خنک -->
+<div class="menu" id="cold">
+<span class="back" onclick="goBack()">بازگشت</span>
+<h2>نوشیدنی خنک</h2>
+<ul>
+<li><span>شربت پرتقال</span><span>۵۰</span></li>
+<li><span>شربت آناناس</span><span>۶۰</span></li>
+<li><span>شربت آلبالو</span><span>۶۰</span></li>
+<li><span>موهیتو</span><span>۸۰</span></li>
+<li><span>خاکشیر</span><span>۶۰</span></li>
+<li><span>تخم شربتی و زعفران</span><span>۷۰</span></li>
+<li><span>شیر موز معجون</span><span>۱۰۰</span></li>
+<li><span>شیر پسته با بستنی</span><span>۱۱۰</span></li>
+<li><span>شیر موز</span><span>۶۵</span></li>
+<li><span>شیر موز بستنی</span><span>۹۰</span></li>
+<li><span>شیر موز قهوه</span><span>۹۰</span></li>
+<li><span>آب هویج</span><span>۵۰</span></li>
+<li><span>آب هویج بستنی</span><span>۸۰</span></li>
+<li><span>آب طالبی</span><span>۷۰</span></li>
+<li><span>آب طالبی بستنی</span><span>۹۰</span></li>
+<li><span>آب انبه</span><span>۹۰</span></li>
+<li><span>آب انبه بستنی</span><span>۱۱۰</span></li>
+</ul>
+</div>
+
+<!-- سرویس چای -->
+<div class="menu" id="tea">
+<span class="back" onclick="goBack()">بازگشت</span>
+<h2>سرویس چای</h2>
+<ul>
+<li><span>دو نفره</span><span>۱۲۰</span></li>
+<li><span>سه نفره</span><span>۱۸۰</span></li>
+<li><span>پنج نفره</span><span>۳۰۰</span></li>
+<li><span>هفت نفره</span><span>۴۲۰</span></li>
+<li><span>چای ماسالا</span><span>۸۰</span></li>
+</ul>
+</div>
+
+<!-- غذا -->
+<div class="menu" id="food">
+<span class="back" onclick="goBack()">بازگشت</span>
+<h2>غذاها</h2>
+<ul>
+<li><span>دیزی</span><span>۳۲۰</span></li>
+<li><span>حلیم</span><span>۱۳۰</span></li>
+<li><span>آش رشته</span><span>۱۳۰</span></li>
+<li><span>آش دوغ</span><span>۱۲۰</span></li>
+<li><span>بلال</span><span>۹۰</span></li>
+<li><span>ذرت مکزیکی</span><span>۹۰</span></li>
 </ul>
 </div>
 
